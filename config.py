@@ -19,3 +19,6 @@ POLL_INTERVAL = 5
 # announce power-on?
 ANNOUNCE_ENABLED = True
 ANNOUNCE_MESSAGE = "Twitter reader ready"
+
+# message template
+MESSAGE = "%s tweeted: %s"
