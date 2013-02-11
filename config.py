@@ -12,8 +12,9 @@ TWITTER_ACCESS_SECRET = ""
 #SPEAK_CMD = "say %s" # osx
 SPEAK_CMD = "espeak %s" # linux - will need to install it first
 
-# seconds between poll attempts
-POLL_INTERVAL = 60
+# minutes between poll attempts
+# twitter rate-limits the call here to 15 times per hour - so at most every 4 mins. set faster at your own risk!
+POLL_INTERVAL = 5
 
 # announce power-on?
 ANNOUNCE_ENABLED = True
